@@ -1,0 +1,13 @@
+PATCH https://leidcyitkqhhthnlkrdr.supabase.co/rest/v1/mark?id=eq.2
+{
+    "score": "4"
+}
+POST https://leidcyitkqhhthnlkrdr.supabase.co/rest/v1/work
+{
+    "id": "3",
+    "description": "сколько согласных в слове мир",
+    "answers": "2",
+    "works_name": "Проверочная №3",
+    "id_user": "2",
+    "id_subject": "1"
+}
