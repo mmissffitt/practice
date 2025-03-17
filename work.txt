@@ -42,3 +42,18 @@ GET
         "grade": 5
     }
 ]
+
+5) SQL Editor:
+CREATE VIEW teacher_work_count2 AS
+SELECT id_user, COUNT(id_work) AS work_count
+FROM grades
+GROUP BY id_user
+
+GET: https://ayhwybplwfeilizjeyla.supabase.co/rest/v1/teacher_work_count2?work_count=gt.2&select=*
+итог:
+[
+    {
+        "id_user": 3,
+        "work_count": 4
+    }
+]
