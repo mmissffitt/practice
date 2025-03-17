@@ -1,0 +1,6 @@
+1) https://ayhwybplwfeilizjeyla.supabase.co/rest/v1/grades?id=eq.1
+PATCH
+код:
+{
+    "grade": "4"
+}
