@@ -16,3 +16,11 @@ POST
     "answers": "1 - в, 2 - г, 3 - а",
     "id_subject": "2"
 }
+
+3) https://ayhwybplwfeilizjeyla.supabase.co/rest/v1/users
+POST
+код:
+{
+    "name": "Лиля Мармеладова",
+    "group": "ИС 23/9-2"
+}
