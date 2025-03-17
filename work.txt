@@ -24,3 +24,21 @@ POST
     "name": "Лиля Мармеладова",
     "group": "ИС 23/9-2"
 }
+
+4) https://ayhwybplwfeilizjeyla.supabase.co/rest/v1/grades?grade=gt.4&select=*
+GET
+итог: 
+[
+    {
+        "id": 2,
+        "id_user": 3,
+        "id_work": 2,
+        "grade": 5
+    },
+    {
+        "id": 3,
+        "id_user": 3,
+        "id_work": 2,
+        "grade": 5
+    }
+]
