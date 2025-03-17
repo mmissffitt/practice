@@ -4,3 +4,15 @@ PATCH
 {
     "grade": "4"
 }
+
+
+2) https://ayhwybplwfeilizjeyla.supabase.co/rest/v1/works
+POST
+код:
+{
+    "works_name": "Практическая №3",
+    "description": "Тест: «По страницам добрых сказок»",
+    "id_user": "3",
+    "answers": "1 - в, 2 - г, 3 - а",
+    "id_subject": "2"
+}
